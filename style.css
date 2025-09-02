@@ -1,0 +1,50 @@
+body {
+    background: radial-gradient(circle, #fff0f5, #ffe4e1);
+    font-family: 'Georgia', serif;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .invitation {
+    background-color: #f0ecec;
+    border: 2px solid #d8bfd8;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: #8b008b;
+    font-size: 2em;
+  }
+  
+  .intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  #imageContainer img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .noms-dores {
+    background: linear-gradient(90deg, #f5deb3, #ffd700, #daa520);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% { background-position: 0% }
+    100% { background-position: 100% }
+  }

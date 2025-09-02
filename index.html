@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Invitation de Mariage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="invitation">
+    <h1>✨ Vous êtes invités ✨</h1>
+    <p class="intro">
+        <span class="noms-dores">Boubacar & Mariama</span> <br> ont le plaisir de vous convier à leur mariage
+    </p>
+    <p class="details">
+      📅 Le Dimanche 07 Decembre 2025<br>
+      📍 À Hamdallaye chez la marié <br>
+      🕒 Le mariage religieux à 13h et suivi d'une reception à 16h
+    </p>
+    <input type="file" id="imageUpload" accept="image/*">
+    <div id="imageContainer"></div>
+    <button onclick="afficherMessage()">Voir le mot des mariés</button>
+    <p id="messageSecret" style="display:none;">Merci de partager ce moment magique avec nous 💖</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
